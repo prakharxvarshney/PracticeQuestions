@@ -3,7 +3,7 @@ public class Question2 {
     //Print Factorial of a number n
     static Scanner scan = new Scanner(System.in);
     public static void printFactorial(int i, int n, int factorial) {
-        if(i==n) {
+        if(i==n || n==0) {
             factorial*=i;
             System.out.println(factorial);
             return;
